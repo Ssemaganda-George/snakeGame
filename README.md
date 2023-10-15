@@ -24,9 +24,9 @@ Clone the Repository:
 bash
 Copy code
 git clone https://github.com/your-username/snake-game-c.git
-Compile the Code:
+Compile the Code: 
 
-Copy code
+Copy and run **test().c** code 
 gcc snake.c -o snake
 Run the Game:
 
