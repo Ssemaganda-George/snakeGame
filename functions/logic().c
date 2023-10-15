@@ -5,35 +5,38 @@
 #include <stdlib.h>
 
 
-//int i, j, height  =20, width = 20, gameover, score;
-//int x, y, fruitx, fruity, flag;
+int i, j, height  =20, width = 20, gameover, score;
+int x, y, fruitx, fruity, flag;
 
-//Constructing the boundary outline using draw(), tool.
-int i, j, height = 20;
-int width = 20, gameover, score;
-
-//Function to draw the boundary.
-
-void draw(){
-
-    for (i = 0; i < height; i++){
-        for (j = 0; j < width; j ++ ){
-            if (i == 0 || i == width - 1 || j == 0 || j == height - 1){
-                    printf("#");
-            }
-
-            else{
-                    printf(" ");
-            }
-        }
-        printf("\n");
-
+void logic(){
+    sleep(0.01);
+    switch(flag){
+        case 1:
+            y--;
+            break;
+        case 2:
+            x++;
+            break;
+        case 3:
+            y++;
+            break;
+        case 4:
+            x--;
+            break;
+        default:
+            break;
     }
-}
-//Declaring the main function.
-int main(){
-    //functional  call
-    draw();
-
-    return 0;
+    if(x < 0 || x > height || y < 0|| y > width)
+        gameover = 1;
+    if(x == fruitx && y == fruity){
+            label3:
+                fruitx = rand()%20;
+                if(fruitx == 0)
+            goto label3;
+            label4:
+                fruity = rand()%20;
+                if(fruity == 0)
+            goto label4;
+            score += 10;
+    }
 }
