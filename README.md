@@ -1,5 +1,6 @@
 **Snake Game in C**
-This is a simple console-based implementation of the classic Snake game in C. The game is played in the terminal where the player controls a snake that moves around the screen, trying to eat food represented by a fruit symbol(*). As the snake eats food, it grows longer, making the game more challenging.
+
+This is a console-based implementation of the classic Snake game in C. The game is played in the terminal where the player controls a snake that moves around the screen, trying to eat food represented by a fruit symbol(*). As the snake eats food, it grows longer, making the game more challenging.
 
 **How to Play**
 Controls:
