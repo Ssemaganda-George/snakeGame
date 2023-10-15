@@ -12,16 +12,16 @@ int x, y, fruitx, fruity, flag;
 void input() {
     if (_kbhit()) {
         switch (_getch()) {
-            case 'a':
+            case 'f':
                 flag = 1;
                 break;
-            case 's':
+            case 'g':
                 flag = 2;
                 break;
-            case 'd':
+            case 'h':
                 flag = 3;
                 break;
-            case 'w':
+            case 't':
                 flag = 4;
                 break;
             case 'x':
