@@ -3,6 +3,7 @@
 This is a console-based implementation of the classic Snake game in C. The game is played in the terminal where the player controls a snake that moves around the screen, trying to eat food represented by a fruit symbol(*). As the snake eats food, it grows longer, making the game more challenging.
 
 **HOW TO PLAY**
+
 Controls:
 
 Use the T, F, G, and H keys to move the snake Up, Left, Down, and Right respectively.
@@ -40,7 +41,7 @@ Each time the snake eats a fruit, the player's score increases.
 The game ends if the snake collides with the walls or itself.
 To exit the game, press X.
 
-**Customization**
+**CUSTOMIZATION**
 You can customize the game by modifying the code.
 Adjust the height and width variables to change the size of the game board.
 Modify the speed of the game by changing the duration in the Sleep() function inside the logic() function.
