@@ -13,9 +13,7 @@ int main() {
     setup();
     //untill we see game over.
     while (!gameover) {
-        draw();
-        input();
-        logic();
+       
     }
 
     return 0;
