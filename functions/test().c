@@ -1,3 +1,4 @@
+//Including the required libraries
 #include <stdio.h>
 #include <conio.h>
 #include <windows.h> // For kbhit(), getch(), and Sleep()
