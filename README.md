@@ -18,6 +18,7 @@ Avoid running into the walls or the snake touching its own body, or the game wil
 
 This game is implemented in C and requires a C compiler to run.
 The code uses certain functions specific to Windows (conio.h), so it's best suited for Windows environments.
+
 **How to Run**
 
 Clone the Repository:
