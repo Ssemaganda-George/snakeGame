@@ -25,7 +25,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/Ssemaganda-George/snake-game-c.git
+'git clone https://github.com/Ssemaganda-George/snake-game-c.git'
 
 **Compile the Code: **
 
